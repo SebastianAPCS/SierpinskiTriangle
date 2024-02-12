@@ -8,13 +8,13 @@ int g;
 int b;
 
 double s = 1.5;
-float strokeWeight = 1;
+float weight = 1;
 
 // Required functions for processing
 
 void setup() {
   size(800, 600);
-  strokeWeight(strokeWeight);
+  strokeWeight(weight);
   
   angles[0] = 45;
   angles[1] = 45;
